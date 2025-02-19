@@ -87,15 +87,14 @@ O dataset contém informações detalhadas sobre imóveis disponíveis para alug
    - **R² (Coeficiente de Determinação)**  
 
 📊 **Resultados das Métricas:**  
+|          Modelo            |    MAE    |   MAPE   |    RMSE   |     R²   |
+|----------------------------|-----------|----------|-----------|----------|
+|  **Random Forest Tunned**  | 0.761683  | 0.008853 | 4.147637  | 0.996287 |
+|  **Random Forest**         | 0.772605  | 0.008837 | 4.265349  | 0.996073 |
+|  **Árvore de Decisão**     | 1.120523  | 0.011729 | 6.563222  | 0.990703 |
+|  **Regressão Linear**      | 30.643937 | 0.294602 | 41.661007 | 0.625390 |
 
-| Modelo                     | MAE      | MAPE    | RMSE     | R²      |
-|----------------------------|----------|---------|----------|---------|
-| **Random Forest**          | 0.75     | 0.0086  | 4.08     | 0.9963  |
-| **Árvore de Decisão**      | 7.14     | 0.0756  | 15.96    | 0.9450  |
-| **Random Forest Tunado**   | 10.73    | 0.1078  | 17.75    | 0.9319  |
-| **Regressão Linear**       | 30.64    | 0.2946  | 41.66    | 0.6253  |
-
-📌 **Conclusão:** O modelo **Random Forest sem tuning** apresentou **melhores resultados**, com **baixo erro e alto R²**, sendo escolhido como modelo final.
+📌 **Conclusão:** O modelo **Random Forest com tunning** apresentou os **melhores resultados**, com **baixo erro e alto R²**, sendo escolhido como modelo final.
 
 ---
 
