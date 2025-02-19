@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 
-with open(r'D:\Data Science\Indicium\notebooks\LH_CD_MATHEUS-BORGES.pkl', 'rb') as arquivo:
+with open(r'D:\Data Science\Indicium\models\LH_CD_MATHEUS-BORGES.pkl', 'rb') as arquivo:
     regr = pickle.load(arquivo)
     
 novo_dado = {
