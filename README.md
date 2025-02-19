@@ -30,12 +30,12 @@ O dataset contém informações detalhadas sobre imóveis disponíveis para alug
 │── 📂 src                   # Código-fonte do projeto
 │   ├── preprocessamento.py  # Funções de limpeza e transformação dos dados
 │   ├── treinamento.py       # Treinamento dos modelos
+│   ├── finetunning.py       # Otimização do modelo
 │   ├── avaliacao.py         # Avaliação dos modelos
 │   ├── predicao.py          # Código para novas previsões
-│── 📂 models                # Modelos treinados e salvos
+│── 📂 models                # Modelo treinado e salvo
 │── requirements.txt         # Lista de bibliotecas necessárias
 │── README.md                # Documentação do projeto
-│── app.py                   # API para previsão (caso necessário)
 ```
 
 ---
